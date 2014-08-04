@@ -19,8 +19,9 @@ And then execute:
 Or install it yourself as:
 
     $ git clone git://github.com/tleish/svn_parallel.git  
+    $ git clone https://github.com/tleish/svn_parallel.git
     $ cd svn_parallel
-    $ rake gem
+    $ gem install svn_parallel
 
 
 ## Usage
