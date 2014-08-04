@@ -2,7 +2,7 @@
 
 If you have an app in subversion with many externals, it may take a bit too long to update it, as updates happen one after another. This gem updates the root and each external in parallel, making it much faster.
 
-NOTE: After adding/changing externals or external properties, you'll need to run the standard `svn up` once before running this script again
+NOTES: After adding/changing externals or external properties, you'll need to run the standard `svn up` once before running this script again
 
 Original Script From: kch on http://codesnippets.joyent.com/posts/show/548
 
@@ -25,5 +25,5 @@ Or install it yourself as:
 
 ## Usage
 
-$ cd [svn root directory...]
-$ svnup
+    $ cd <svn root directory...>
+    $ svnup
