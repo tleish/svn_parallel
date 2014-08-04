@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'svn_parallel'
+
+SvnParallel::Update.run(ARGV.first)
